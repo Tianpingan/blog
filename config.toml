@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://tianpingan.github.io/"
-title = "田平安"
+title = "APTian"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -12,7 +12,7 @@ copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0
 theme = "meme"
 
 # `hugo new` 新建文章自动打开的文本编辑器
-newContentEditor = ""
+newContentEditor = "C:\\tpa\\application\\Typora\\Typora.exe"
 
 # i18n
 defaultContentLanguage = "zh"
@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = false
 pluralizeListTitles = false
 
 # 摘要的字数限制
-summaryLength = 42
+summaryLength = 0
 
 # 是否开启 GitHub 风格的 Emoji 书写方式
 enableEmoji = false
@@ -92,17 +92,17 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "reuixiy"
+    name = "TianPingan"
     # 邮箱
-    email = "reuixiy@gmail.com"
+    email = "tianpingan2000@gmail.com"
     # 座右铭或简介
-    motto = "Viva La Vida"
+    motto = "对未来真正的慷慨，在于把一切都献给现在"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://io-oi.me/"
+    website = "https://tianpingan.github.io/"
     # 推特
-    twitter = "reuixiy"
+    #twitter = "reuixiy"
 
 # 相关文章
 [related]
@@ -232,7 +232,7 @@ uglyURLs = false
     enableHeader = true
 
     # 是否自动隐藏
-    enableHeaderAutoHide = false
+    enableHeaderAutoHide = true
     # 说明：仅对弹性布局的顶栏有效
 
     # 是否在首页显示
@@ -250,7 +250,7 @@ uglyURLs = false
     # 在窄视图下隐藏菜单栏并显示一个按钮？
     enableNavToggle = true
 
-    navHeight = "10em"
+    navHeight = "20em"
     # 说明：菜单栏展开时的高度
 
 
@@ -327,16 +327,16 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。"
+    siteDescription = "TianPingan想做一个努力的人"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
     # 站点的创建时间
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2021-03-08T20:17:43+00:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = "reuixiy"
+    #siteTwitter = "reuixiy"
     # 说明：用于 Twitter Cards
 
 
@@ -549,7 +549,7 @@ uglyURLs = false
     # KaTeX 公式支持（包括化学方程式）
 
     # 是否开启（全局设置）
-    enableKaTeX = false
+    enableKaTeX = true
     # 说明：文章的 Front Matter 中的 `katex`
     #      的优先级高于此处
 
