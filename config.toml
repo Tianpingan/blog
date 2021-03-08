@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://tianpingan.github.io/"
-title = "Hugo 主题 MemE"
+title = "田平安"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
